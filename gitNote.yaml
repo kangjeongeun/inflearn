@@ -1,0 +1,31 @@
+초기설정:
+  
+  git 계정설정:
+    git config --global user.name "(이름)"
+    git config --global user.email "(이메일)"
+
+  확인하는법: 
+    git config --global user.name
+    git config --global user.email
+
+  git init: .git 파일을 생성하고 git으로 관리하도록 초기화한다.
+  ctrl + shift + . : 숨김파일 보기
+  
+.gitignore: 해당 파일에 파일명 혹은 경로를 넣을경우 git관리 대상에서 제외
+
+git status: git 상태 확인
+
+file add: 
+  - 파일저장 업로드: git add 파git일명
+  - 파일 일괄 업로드: git add .
+
+git commit: 수정, 업로드한 파일 commit 
+git commit -a: add와 commit을 같이
+git commit -am (커밋 코멘트): add와 commit 후 코멘트를 남긴다
+git log: commit 로그 확인
+
+git diff: 변경된 파일의 차이점을 확인한다 
+
+git reset --hard (돌아갈 커밋 ID): commit_id의 상태로 이동한다, commit_id 이후의 기록은 전부 삭제
+git revert (돌아갈 커밋 ID): 돌아갈 커밋 ID 의 상태를 되돌리고 해당 기록을 새로운 commit으로 남김다
+git revert --no-commit (돌아갈 커밋 ID): 돌아갈 커밋 ID의 상태로 되돌리면서 commit하기 전 상태가 된다. 현재 작업중인 파일과 같이 커밋할 때 사용
