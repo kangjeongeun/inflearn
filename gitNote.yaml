@@ -45,4 +45,6 @@ branch add:
     - git merge [합칠 대상의 브랜치]: 합칠 대상의 브랜치를 현재 위치한 브랜치와 merge(합치기 위한 브랜치로 전환되어 있어야한다)
     - reset 가능
   - rebase: 현재의 브랜치를 메인 브랜치에 이어 붙여서 commit(히스토리가 남지 않음)
+    - git rebase [이동하려는 브랜치]: 
+    - rebase 후 이동하려는 브랜치로 이동한 뒤 다시 git merge [합칠 대상의 브랜치] 작성
  
