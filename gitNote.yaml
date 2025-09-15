@@ -54,3 +54,10 @@ branch add:
   - git rebase --continue: 이후 다음 rebase 파일에 대한 작업 수행
   - rebase의 경우 건건히 파일 수정을 해줘야 하기 때문에 continue로 진행
   - 이후 이동하려는 브랜치로 이동후 merge 진행
+
+
+원격: 
+  - 원격주소 복사후 붙여넣기
+  - git remote: 원격 주소지 
+  - git remote -v: 원격 주소지 상세정보
+  - git clone [git 주소]: git 내려받기
