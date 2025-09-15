@@ -44,7 +44,13 @@ branch add:
   - merge: 두개의 브랜치를 합쳐서 새로운 commit(히스토리 존재)
     - git merge [합칠 대상의 브랜치]: 합칠 대상의 브랜치를 현재 위치한 브랜치와 merge(합치기 위한 브랜치로 전환되어 있어야한다)
     - reset 가능
+  - git merge --abort: merge를 중단하고 이전으로 돌아간다
   - rebase: 현재의 브랜치를 메인 브랜치에 이어 붙여서 commit(히스토리가 남지 않음)
     - git rebase [이동하려는 브랜치]: 
     - rebase 후 이동하려는 브랜치로 이동한 뒤 다시 git merge [합칠 대상의 브랜치] 작성
- 
+  - git rebase --abort: rebase를 중단하고 이전으로돌아간다
+  - git rebase [이동하려는 브랜치]
+  - git add .
+  - git rebase --continue: 이후 다음 rebase 파일에 대한 작업 수행
+  - rebase의 경우 건건히 파일 수정을 해줘야 하기 때문에 continue로 진행
+  - 이후 이동하려는 브랜치로 이동후 merge 진행
