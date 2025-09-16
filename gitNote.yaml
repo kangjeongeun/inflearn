@@ -65,4 +65,4 @@ branch add:
   - git pull: 원격 주소지에서 내려받기
   - push 사용시 충돌이 발생할 경우: 일단 pull을 사용
     - git pull --no-rebase : merge 방식으로 pull
-    - git pull -
+    - git pull -re
