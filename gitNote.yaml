@@ -30,7 +30,7 @@ git reset --hard (돌아갈 커밋 ID): commit_id의 상태로 이동한다, com
 git revert (돌아갈 커밋 ID): 돌아갈 커밋 ID 의 상태를 되돌리고 해당 기록을 새로운 commit으로 남김다
 git revert --no-commit (돌아갈 커밋 ID): 돌아갈 커밋 ID의 상태로 되돌리면서 commit하기 전 상태가 된다. 현재 작업중인 파일과 같이 커밋할 때 사용
 
-branch:
+branch :
   - git branch [브랜치 명]: 브랜치 명의 브랜치 추가
   - git branch: 현재 브랜치 목록 확인
   - git switch [브랜치 명]: 브랜치 명의 브랜치로 전환
