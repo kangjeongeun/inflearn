@@ -61,3 +61,4 @@ branch add:
   - git remote: 원격 주소지 
   - git remote -v: 원격 주소지 상세정보
   - git clone [git 주소]: git 내려받기
+  - git push: 원격 주소지에 올리기
