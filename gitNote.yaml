@@ -65,8 +65,4 @@ branch add:
   - git pull: 원격 주소지에서 내려받기
   - push 사용시 충돌이 발생할 경우: 일단 pull을 사용
     - git pull --no-rebase : merge 방식으로 pull
-<<<<<<< HEAD
     - git pull --rebase: 원격을 받고 이후에 나의 commit 내용을 추가
-=======
-    - git pull -re
->>>>>>> 955dae446e37745d8706f374d6bde33afd19882e
