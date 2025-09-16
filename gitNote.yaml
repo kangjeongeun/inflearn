@@ -56,7 +56,7 @@ branch add:
   - 이후 이동하려는 브랜치로 이동후 merge 진행
 
 
-원격: 
+원격 : 
   - 원격주소 복사후 붙여넣기
   - git remote: 원격 주소지 
   - git remote -v: 원격 주소지 상세정보
