@@ -14,7 +14,7 @@
 .gitignore: 해당 파일에 파일명 혹은 경로를 넣을경우 git관리 대상에서 제외
 
 git status: git 상태 확인
-
+ 
 file add: 
   - 파일저장 업로드: git add 파git일명
   - 파일 일괄 업로드: git add .
@@ -58,6 +58,7 @@ branch add:
 
 원격 : 
   - 원격주소 복사후 붙여넣기
+  - git branch --all: 원격의 모든 브랜치 확인
   - git remote: 원격 주소지 
   - git remote -v: 원격 주소지 상세정보
   - git clone [git 주소]: git 내려받기
